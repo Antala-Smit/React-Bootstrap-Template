@@ -1,0 +1,70 @@
+.box .box1 {
+    background-image: url('src/img/2 (2).jpg');
+}
+
+.box .box2 {
+    background-image: url('src/img/3 (2).jpg');
+}
+
+.box .box3 {
+    background-image: url('src/img/1 (2).jpg');
+}
+
+.box .box1,
+.box .box2,
+.box .box3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    background-position: center;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.box .box1 h5,
+.box .box2 h5,
+.box .box3 h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #2b2b2d;
+}
+
+.box .box1 p span,
+.box .box2 p span,
+.box .box3 p span {
+    margin-right: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #64b496;
+}
+
+.box .box1 p,
+.box .box2 p,
+.box .box3 p {
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+.box .box1 button,
+.box .box2 button,
+.box .box3 button {
+    background-color: #64b496;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+.box .box1 button:hover,
+.box .box2 button:hover,
+.box .box3 button:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.offer {
+    padding-bottom: 100px;
+}

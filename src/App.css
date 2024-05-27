@@ -1,0 +1,21 @@
+<div className='nav-bar'><div className="accordion"><div className="accordion-item"><input type="checkbox" id="section1" className="accordion-checkbox" /><label htmlFor="section1" className="accordion-label">Home</label></div><div className="accordion-item"><input type="checkbox" id="section2" className="accordion-checkbox" /><label htmlFor="section2" className="accordion-label"><span>Category</span><FontAwesomeIcon icon= {
+    faAngleDown
+}
+
+/></label><div className="accordion-content"><ul><li><a href="#">Shop Left Sidebar</a></li><li><a href="#">Shop Right Sidebar</a></li><li><a href="#">Full Width</a></li></ul></div></div><div className="accordion-item"><input type="checkbox" id="section2" className="accordion-checkbox" /><label htmlFor="section2" className="accordion-label"><span>Products</span><FontAwesomeIcon icon= {
+    faAngleDown
+}
+
+/></label><div className="accordion-content"><ul><li><a href="#">Product Left Sidebar</a></li><li><a href="#">Product Right Sidebar</a></li><li><a href="#">Full Width</a></li></ul></div></div><div className="accordion-item"><input type="checkbox" id="section2" className="accordion-checkbox" /><label htmlFor="section2" className="accordion-label"><span>Pages</span><FontAwesomeIcon icon= {
+    faAngleDown
+}
+
+/></label><div className="accordion-content"><ul><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Cart</a></li><li><a href="#">Checkout</a></li><li><a href="#">Track Order</a></li><li><a href="#">Whishlist</a></li><li><a href="#">Faq</a></li><li><a href="#">Login</a></li><li><a href="#">Register</a></li><li><a href="#">Policy</a></li></ul></div></div><div className="accordion-item"><input type="checkbox" id="section2" className="accordion-checkbox" /><label htmlFor="section2" className="accordion-label"><span>Blog</span><FontAwesomeIcon icon= {
+    faAngleDown
+}
+
+/></label><div className="accordion-content"><ul><li><a href="#">Left Sidebar</a></li><li><a href="#">Right Sidebar</a></li><li><a href="#">Full Width</a></li><li><a href="#">Detail Left Sidebar</a></li><li><a href="#">Detail Right Sidebar</a></li><li><a href="#">Detail Full Width</a></li></ul></div></div><div className="accordion-item"><input type="checkbox" id="section2" className="accordion-checkbox" /><label htmlFor="section2" className="accordion-label"><span>Elements</span><FontAwesomeIcon icon= {
+    faAngleDown
+}
+
+/></label><div className="accordion-content"><ul><li><a href="#">Products</a></li><li><a href="#">TyPography</a></li><li><a href="#">Buttons</a></li></ul></div></div></div></div>

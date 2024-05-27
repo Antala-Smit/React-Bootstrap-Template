@@ -1,0 +1,138 @@
+.product {
+    margin: 90px 0;
+}
+
+.product .title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2d;
+}
+
+.product .title p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+    color: #979393;
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box-1 {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 10px;
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box img {
+    transition: transform 1s;
+    max-width: 100%;
+    display: block;
+}
+
+.box img:hover {
+    transform: scale(1.5);
+}
+
+.text-box {
+    padding: 15px;
+    text-align: center;
+}
+
+.text-box h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.text-box p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 800;
+    color: #64b496;
+}
+
+.text-box span {
+    font-size: 14px;
+}
+
+.text-box p span {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.text-box i {
+    padding-top: 10px;
+    color: #f5885f;
+    font-size: 15px;
+}
+
+.text-box a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.text-box a h3:hover {
+    color: #64b496;
+}
+
+.icon1 a i {
+    background-color: #fff;
+}
+
+.icon1 a p i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d0d0d3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 50%;
+    color: #000000;
+    visibility: hidden;
+}
+
+.icon1 a i {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d0d0d3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 50%;
+    color: #000000;
+    visibility: hidden;
+}
+
+.box-1:hover i {
+    visibility: visible;
+}
